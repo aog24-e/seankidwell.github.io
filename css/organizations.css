@@ -1,33 +1,61 @@
 body{
-  font-family: Arial, sans-serif;
+  font-family:'Segoe UI', Arial, sans-serif;
   line-height:1.6;
   margin:0;
-  padding: 40px;
+  padding: 40px 20px;
   background-image:url('https://seankidwell.github.io/imgs/IMG_0203.PNG');
   background-size:cover;
   background-attachment:fixed;
   background-position:center;
+  background-repeat: no-repeat;
+  display:flex;
+  flex-direction:column;
+  color: #333;
+  
+}
+header h1{
+  color: white;
+  font-size: 3rem;
+  text-align:center;
+  margin-bottom:40px;
+  text-shadow:2px 4px 10px rgba (0, 0, 0, 0.5);
 }
 .org-container {
-  background-color: rgba(255, 255, 255, 0.9);
-  padding: 25px;
-  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  margin-bottom: 30px;
+  width:100%;
   max-width: 800px;
-  border-radius:10px;
-  box-shadow: 0 4px 10px rgba (0, 0, 0, 0.3);
+  border-radius:20px;
+  box-shadow: 0 15px 35px rgba (0, 0, 0, 0.2);
+  border: 1px solid rgba (255, 255, 255, 0.3);
+  transition: transform 0.3s ease;
+}
+.org-container h2 {
+  color: #2e7d32;
+  margin-top: 0;
+  font-size: 1.8rem;
+}
+.org-container p {
+  font-size:1.1rem;
+  line-height: 1.8;
 }
 .visit-btn {
   display: inline-block
   background-color: #2e7d32;
   color: white;
-  padding: 10px 20px;
+  padding: 12px 30px;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 50px;
   font-weight: bold;
   margin-top: 15px;
+  box-shadow: 0 4px 10px rgba(47, 125, 50, 0.3);
+  transition: all 0.3s ease;
 }
 .visit-btn:hover {
   background-color: #1b5e20;
+  box-shadow: 0 6px 15px rgba(27, 94, 32, 0.4);
+  transform: scale(1.05);
 }
   
   
