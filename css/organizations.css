@@ -3,4 +3,32 @@ body{
   line-height:1.6;
   margin:0;
   padding: 40px;
-  background-image:url('
+  background-image:url('../imgs/IMG_0203.png');
+  background-size:cover;
+  background-attachment:fixed;
+  background-position:center;
+}
+.org-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 25px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius:10px;
+  box-shadow: 0 4px 10px rgba (0, 0, 0, 0.3);
+}
+.visit-btn {
+  display: inline-block
+  background-color: #2e7d32;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.visit-btn:hover {
+  background-color: #1b5e20;
+}
+  
+  
+
